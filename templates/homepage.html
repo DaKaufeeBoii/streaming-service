@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TurtleHermit: Homepage</title>
+</head>
+<body>
+    <h1>Welcome to TurtleHermit</h1>
+    <h2>The best place to stream anything</h2>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="homepage.html">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="registration">Register</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Movies</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">TV Shows</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Live TV</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Genres
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Adventure</a></li>
+                    <li><a class="dropdown-item" href="#">Drama</a></li>
+                    <li><a class="dropdown-item" href="#">KDrama</a></li>
+                    <li><a class="dropdown-item" href="#">Thrillers</a></li>
+                    <li><a class="dropdown-item" href="#">Romcom</a></li>
+                    <li><a class="dropdown-item" href="#">Sitcom</a></li>
+                    <li><a class="dropdown-item" href="#">Comedy</a></li>
+                    <li><a class="dropdown-item" href="#">Sports</a></li>
+                    <li><a class="dropdown-item" href="#">Anime</a></li>
+                </ul>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit" id="search">Search</button>
+            </form>
+            </div>
+        </div>
+    </nav>
+    
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images8.alphacoders.com/910/thumb-1920-910288.jpg" class="d-block w-100" alt="black clover">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images8.alphacoders.com/135/thumb-1920-1355096.jpeg" class="d-block w-100" alt="Dragon Ball Z Kai">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images2.alphacoders.com/136/thumb-1920-1369365.jpeg" class="d-block w-100" alt="One Piece">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://wallpapers.com/images/high/black-clover-iphone-tyujrjxrq1xk29j3.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Black Clover</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://wallpapers.com/images/high/son-goku-blue-poster-uw0arq6lnrkz9ob4.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dragon Ball Super</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://wallpapers.com/images/featured/one-piece-iphone-6cakwu3a3exyh3p3.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">One Piece</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>

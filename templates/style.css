@@ -1,0 +1,121 @@
+/* General Styles */
+h1{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: orange;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: orange;
+}
+
+/* Navbar */
+.navbar {
+    margin-bottom: 20px;
+    background-color: #343a40;
+}
+
+.navbar .nav-link {
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.navbar .nav-link:hover {
+    color: #ffc107;
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff;
+}
+
+/* Carousel */
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Card Styles */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    color: #495057;
+}
+
+.card-footer {
+    background-color: #f8f9fa;
+    color: #6c757d;
+}
+
+/* Forms */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+form input, form button {
+    width: 90%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form input:focus, form button:focus {
+    border-color: #80bdff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+form button {
+    background-color: #28a745;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+/* Registration Page Buttons */
+a button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+a button:hover {
+    background-color: #0056b3;
+}
+
+/* Heading Styles */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #343a40;
+}
+
+/* Footer Text */
+.text-body-secondary {
+    color: #6c757d !important;
+}
